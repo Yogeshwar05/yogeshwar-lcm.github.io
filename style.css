@@ -7,6 +7,8 @@
   justify-content: center;
   flex-direction: row;
   background-color: rgb(149, 226, 156);
+  height: 10rem;
+  align-items: cen;
 }
 
 .lcm-input {
@@ -39,6 +41,7 @@
   display: flex;
   justify-content: center;
   background-color: rgb(149, 226, 156);
+  height: 10rem;
 }
 #addBtn {
   justify-self: center;
@@ -48,9 +51,9 @@
   font-family: "Courier New", Courier, monospace;
   font-weight: 599;
   margin: 1rem;
-  background-color: rgb(162, 224, 103);
+  background-color: rgb(167, 255, 236);
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   border: 1px solid rgba(100, 255, 100, 0.74);
 }
 
@@ -98,4 +101,23 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 2rem;
+}
+#er {
+  font-size: 20px;
+  color: red;
+  background-color: rgba(109, 0, 0, 0.192);
+  border-radius: 20px;
+  padding: 5px;
+  margin: 5px;
+  display: inline-block;
+}
+
+#intro {
+  font-size: 25px;
+  color: rgba(123, 253, 145, 0.877);
+  background-color: rgba(3, 24, 0, 0.24);
+  border-radius: 20px;
+  padding: 5px;
+  margin: 5px;
+  display: inline-block;
 }
