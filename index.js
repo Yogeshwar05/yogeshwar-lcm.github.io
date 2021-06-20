@@ -9,8 +9,8 @@ document.getElementById(`addBtn`).addEventListener(`click`, function (e) {
     let x = (a > b) ? a : b;
     if (typeof (a) == `number` && typeof (b) == `number`) {
         while (true) {
-            if (x > 10000) {
-                document.getElementById('ans').innerText = `Error! Very Big Value`;
+            if (x > 100000) {
+                document.getElementById('ans').innerText = `Error! Please Check your input`;
                 break;
             }
             else if (x % a == 0 && x % b == 0) {
