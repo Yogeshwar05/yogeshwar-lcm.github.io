@@ -102,16 +102,6 @@ body {
   align-items: center;
   font-size: 2rem;
 }
-#er {
-  font-size: 20px;
-  color: red;
-  background-color: rgba(109, 0, 0, 0.192);
-  border-radius: 20px;
-  padding: 5px;
-  margin: 5px;
-  display: inline-block;
-  display: none;
-}
 
 #intro {
   font-size: 25px;
